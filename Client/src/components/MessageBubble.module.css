@@ -1,0 +1,20 @@
+.bubble {
+  max-width: 70%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  word-break: break-word;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #2563eb; /* blue-600 */
+  color: #ffffff;
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: #d1d5db; /* gray-300 */
+  color: #111827; /* gray-900 */
+}
