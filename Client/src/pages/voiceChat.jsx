@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import styles from './VoiceChat.module.css';
+
 
 const VoiceChat = ({ onSend, setIsListening }) => {
   const [listening, setListening] = useState(false);
@@ -35,7 +35,7 @@ const VoiceChat = ({ onSend, setIsListening }) => {
   };
 
   return (
-    <button onClick={startListening} className={styles.voiceButton}>
+    <button onClick={startListening} >
       🎤 {listening ? 'Listening...' : 'Speak'}
     </button>
   );
